@@ -24,15 +24,16 @@ This is a hard-coded API for a blog using Python and Flask
 - Delete one comment
 
 
+## Technologies Used
   
 This application is implemented with:
 
-## Back-end Technologies:
+### Back-end Technologies:
 
 - Python
 - Flask
 
-## API Testing Technologies:
+### API Testing Technologies:
 
 - cURL
 
@@ -41,7 +42,7 @@ This application is implemented with:
 
    - Roles API
    - Permissions API
-   - Groups
+   - Groups API
 
    
 ## Flask-API Features
@@ -55,7 +56,7 @@ This application is implemented with:
 
 ### Installing dependencies
 
-#### Setting up the development environment:
+      Setting up the development environment:
 
             mkdir project
             cd project
@@ -64,7 +65,7 @@ This application is implemented with:
             pip install flask
        
   ### Running the project
-  #### To run the project:
+     To run the project:
            flask run
 
 ## Using the project
@@ -74,9 +75,12 @@ This application is implemented with:
 
 
 ## References
-   - Python:
-   - Flask:
-   - Flask-API-Document: 
+   - [Python]()
+   - [Flask]()
+
+
+## Available Documentation
+   - [Flask-API-Document](https://miansh.blogspot.com/2025/02/blog-api-document.html?q=api)
      
  
 
