@@ -1,13 +1,15 @@
 from flask import Flask, request, jsonify
-
+import os
 
 
 app = Flask(__name__)
 
+app.config.from_object('config')
+app.config.from_pyfile('config.py')
 
 
-API_KEY = '98e2a2efe7eee11a855e37655abd'
 
+API_KEY = os.getenv('API_KEY')
 
 def check_key():
 	key = request.headers.get('x-api-key')
